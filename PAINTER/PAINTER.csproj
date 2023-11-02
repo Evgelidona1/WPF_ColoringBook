@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net6.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="arrow.png" />
+    <None Remove="BearImage.jpg" />
+    <None Remove="CapybaraImage.jpg" />
+    <None Remove="End.png" />
+    <None Remove="LandscapeImage.jpg" />
+    <None Remove="sky_cloudd.jpg" />
+    <None Remove="Start.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Resource Include="BearImage.jpg" />
+    <Resource Include="CapybaraImage.jpg" />
+    <Resource Include="End.png" />
+    <Resource Include="LandscapeImage.jpg" />
+    <Resource Include="sky_cloudd.jpg" />
+    <Resource Include="Start.png" />
+  </ItemGroup>
+
+</Project>
